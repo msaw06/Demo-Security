@@ -1,0 +1,7 @@
+security:
+  oauth2:
+    resourceserver:
+      jwt:
+        jwk-set-uri: https://preprod.idpdecathlon.oxylane.com/ext/JWKS
+        issuer: idpdecathlon.preprod.org
+        userinfo-endpoint: https://preprod.idpdecathlon.oxylane.com/idp/userinfo.openid
